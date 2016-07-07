@@ -1,29 +1,26 @@
 {
-  "name": "File_metadata",
+  "name": "file metadata",
   "version": "1.0.1",
   "description": "fcc project",
   "main": "server.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/johnstonbl01/clementinejs-fcc"
-  },
-  "homepage": "http://www.clementinejs.com/",
-  "bugs": "https://github.com/johnstonbl01/clementinejs-fcc/issues",
-  "keywords": [
-    "full stack",
-    "Express",
-    "Node",
-    "javascript",
-    "boilerplate"
-  ],
-  "scripts": {
-    "start": "node server.js"
-  },
-  "author": "hackerq",
-  "license": "MIT",
   "dependencies": {
     "dotenv": "^1.2.0",
-    "express": "^4.12.4",
-    "multer": "^1.1.0",
-  }
+    "express": "^4.14.0",
+    "multer": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a49678321/file-metadata.git"
+  },
+  "author": "hackerq",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/a49678321/file-metadata/issues"
+  },
+  "homepage": "https://github.com/a49678321/file-metadata#readme"
 }
